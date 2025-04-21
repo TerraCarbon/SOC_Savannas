@@ -6,16 +6,7 @@ This script reads a CSV file with SOC stock data and computes the following
 metrics for each group (based on user-defined grouping_fields), for each 
 (depth, model) combination:
 
-1) R2, MedAE, RMSE, NMedAE, NRMSE, NRMSEsd
-2) A one-sample t-test on errors (obs - model) => "Err not stat diff from 0"
-3) Coverage % (approx 90% interval from residual std)
-4) Bias (mean(pred) - mean(obs)) and margin of error (MoE) from observed data
-5) Additional numeric fields:
-   - "Std Dev" (std of the model predictions)
-   - "Coverage (%)"
-   - "Bias"
-   - "MoE"
-6) Pass/Fail fields:
+1) VValidation Pass/Fail fields:
    - "R2>0"
    - "RMSE<StdDev"
    - "Err not stat diff from 0"
