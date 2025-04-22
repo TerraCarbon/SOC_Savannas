@@ -14,6 +14,6 @@
 - DSM rasters for each LDSF sampling site are uploaded to the shared TC/ICRAF drive under the Deliverable 4 [folder](https://drive.google.com/drive/folders/1K4IaiV7A_20qXnASSA9VcV-liazGPecC?usp=sharing)
 
 ### Deliverable 3
-- *Dev3_uncertainty_calculation.R* : Script for calculating uncertainty deductions for SOC stock change in a project.  
+- *Dev3_uncertainty_calculation.R* : Script for calculating uncertainty deductions for SOC stock change in a project. See outputs of example script [here](https://docs.google.com/presentation/d/1TqD0_XBQ78hYpWBuDWKWxQZ-7E3jopFvp53jUckLlnw/edit?usp=sharing).
 
 *repo created by André*
